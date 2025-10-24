@@ -1,0 +1,510 @@
+/* body styles starts here */
+html {
+  scroll-behavior: smooth;
+  font-size: initial;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #121518;
+}
+
+/* header styles starts here */
+
+.header-main .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background: #1d1f21;
+}
+
+.header-main .header .header-logo-flex {
+  flex: 1;
+}
+.header-main .header .header-logo-flex .header-logo {
+  position: absolute;
+  top: 4px;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border: 5px solid #404952;
+  display: flex;
+  justify-content: center;
+}
+.header-main .header .header-logo-flex .header-logo img {
+  width: 80px;
+  height: 80px;
+}
+.header-main .header .header-left-main {
+  flex: 1;
+}
+.header-main .header .header-left-main .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-main .header .header-left-main .header-content li {
+  list-style-type: none;
+}
+
+.header-main .header .header-left-main .header-content li a {
+  padding-right: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header-main .header .header-left-main .header-content li a:hover {
+  color: #b93027;
+  font-weight: 500;
+}
+
+.header-main .header .header-right-main {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.header-main .header .header-right-main .social-icons {
+  padding: 10px;
+  display: inline-block;
+}
+
+.header-main .header .header-right-main .social-icons img {
+  width: 100%;
+  max-width: 20px;
+  object-fit: contain;
+  overflow: hidden;
+  height: auto;
+}
+
+/* wrapper styles starts here */
+
+.pg-home {
+  margin-top: 64px;
+}
+
+.wrapper .home-banner {
+  position: relative;
+  background-image: url(../img/hookah-bg-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 755px;
+  width: 100vw;
+  mix-blend-mode: exclusion;
+  background-attachment: fixed;
+}
+
+.wrapper .home-banner .banner-text {
+  color: white;
+  height: 100% !important;
+  display: flex;
+}
+
+.wrapper .home-banner .banner-text .banner-content {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100% !important;
+  justify-content: flex-end;
+}
+
+.wrapper .home-banner .banner-text .banner-content .cover .hero {
+  max-width: 500px;
+}
+
+.wrapper .home-banner .banner-text .banner-content .cover .hero hgroup h1 {
+  font-size: 50px;
+}
+
+.wrapper .home-banner .banner-text .banner-content .resume-area {
+  margin-top: 30px;
+}
+
+.wrapper .home-banner .banner-text .banner-content .resume-area a {
+  color: #d09f43;
+  display: block;
+  background: #ffc1073b;
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wrapper .home-banner .banner-text .banner-content .cover .hero .typewrite {
+  color: goldenrod;
+}
+
+.wrapper .home-banner .banner-text .banner-content .banner-inner-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background-color: #ab7d6666;
+  position: relative;
+}
+
+.wrapper .home-banner .banner-text .banner-content .banner-inner-image .pp {
+  height: 299px;
+  width: 299px;
+  border-radius: 50%;
+}
+
+.wrapper .home-banner .banner-text .banner-content .cover .dev-name {
+  font-weight: 400;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.wrapper .home-banner .banner-text .exploreProductsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+
+.wrapper .home-banner .banner-text .exploreProductsBtn a {
+  display: flex;
+  align-items: center;
+  background: #b93027;
+  width: 100%;
+  max-width: 180px;
+  justify-content: center;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+
+/* About me css style starts here */
+
+.wrapper .about-us .common-title {
+  margin: 100px 0px 20px 0;
+  font-weight: bold;
+  font-size: 26px;
+  font-weight: 600;
+  position: relative;
+  color: #f0ebe3;
+}
+
+.wrapper .about-us .common-title::before {
+  position: absolute;
+  background: #ba3127;
+  height: 30px;
+  width: 4px;
+  bottom: -13px;
+  content: "";
+  left: -17px;
+  top: 0px;
+}
+
+.wrapper .about-us .about-para {
+  color: #fff;
+  font-size: 16px;
+  text-align: justify;
+  width: 100%;
+  max-width: max-content;
+}
+
+.wrapper .about-us .about-picture-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.wrapper .about-us .about-inner {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+}
+
+.wrapper .about-us .about-inner .about-image {
+  border: 5px solid #d09f43;
+  height: 200px;
+  width: 160px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper .about-us .about-inner img {
+  width: 100%;
+  max-width: 146px;
+  position: absolute;
+  height: 186px;
+  top: 7px;
+  left: 7px;
+}
+
+/* Technologies css starts here */
+
+.wrapper .technologies .common-title {
+  margin: 100px 0px 50px 0;
+  font-weight: bold;
+  font-size: 26px;
+  font-weight: 600;
+  position: relative;
+  color: #f0ebe3;
+}
+
+.wrapper .technologies .common-title::before {
+  position: absolute;
+  background: #ba3127;
+  height: 30px;
+  width: 4px;
+  bottom: -13px;
+  content: "";
+  left: -17px;
+  top: 0px;
+}
+
+.wrapper .technologies .productsMainWrapper .productsCardWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.wrapper .technologies .productsMainWrapper .productsCardWrapper .productCards {
+  width: calc(25% - 13px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper
+  .technologies
+  .productsMainWrapper
+  .productsCardWrapper
+  .productCards
+  img {
+  width: 100%;
+  height: 260px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; */
+}
+
+/* .wrapper .technologies .productsMainWrapper .productsCardWrapper .productCards:hover img {
+   -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+} */
+
+.wrapper
+  .technologies
+  .productsMainWrapper
+  .productsCardWrapper
+  .productCards:hover {
+  box-shadow: #0000001a 7px 9px 17px;
+  transform: translateY(-4px);
+}
+
+.wrapper
+  .technologies
+  .productsMainWrapper
+  .productsCardWrapper
+  .productCards
+  .productDetailsWrapper {
+  background-color: #191b1e;
+  padding: 16px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.wrapper
+  .technologies
+  .productsMainWrapper
+  .productsCardWrapper
+  .productCards
+  .productDetailsWrapper
+  .productTitle {
+  color: #fff;
+  font-size: 24px;
+}
+
+.wrapper
+  .technologies
+  .productsMainWrapper
+  .productsCardWrapper
+  .productCards
+  .productDetailsWrapper
+  .productDescription {
+  color: #fff;
+  font-size: 14px;
+}
+
+.mobile-header-wrapper {
+  display: none;
+}
+
+/* Media Query styles starts here */
+
+@media only screen and (max-width: 991px) {
+  .wrapper .home-banner .banner-text .banner-content .cover .hero h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-main .header {
+    display: none;
+  }
+  .wrapper .home-banner .banner-text .exploreProductsBtn {
+    justify-content: center;
+  }
+
+  .mobile-header-wrapper {
+    display: block;
+    padding: 10px 0 11px 15px;
+    background: #1d1f21;
+  }
+
+  .fixed-top {
+    position: fixed;
+    top: -4px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .header-right-main {
+    position: absolute;
+    top: 22px;
+    right: 15px;
+  }
+
+  .header-right-main a {
+    margin: 0 5px;
+  }
+
+  .wrapper .home-banner .banner-text .banner-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wrapper .home-banner .banner-text .banner-content .cover .hero h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .wrapper .home-banner .banner-text .banner-content .resume-area a {
+    margin: 0 auto;
+  }
+
+  .wrapper .contact-me .blackboard {
+    width: auto;
+  }
+
+  .wrapper .about-us .about-inner {
+    margin: 0 auto 40px;
+  }
+
+  .wrapper .about-us .about-picture-section {
+    flex-wrap: wrap;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b93027;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .wrapper .services .services-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .wrapper .services .services-wrapper .services-list ul {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .wrapper .about-us .common-title {
+    margin: 100px 0px 50px 37px;
+  }
+
+  .wrapper .contact-me .common-title {
+    margin: 100px 0px 50px 37px;
+  }
+
+  .wrapper .technologies .common-title {
+    margin: 100px 0px 50px 37px;
+  }
+
+  .wrapper .services .common-title {
+    margin: 100px 0px 50px 37px;
+  }
+
+  .wrapper .projects .common-title {
+    margin: 100px 0px 50px 37px;
+  }
+
+  .wrapper .about-us .about-picture-section {
+    padding: 0 20px;
+  }
+
+  .wrapper .about-us .about-para {
+    text-align: inherit;
+  }
+  .wrapper .home-banner .banner-text .exploreProductsBtn {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .wrapper .technologies .skills-wrapper-main .progress {
+    width: 300px;
+  }
+  .wrapper .home-banner .banner-text .exploreProductsBtn {
+    justify-content: center;
+  }
+}
